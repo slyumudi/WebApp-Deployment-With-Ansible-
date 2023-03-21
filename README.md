@@ -17,4 +17,4 @@ At a high level, our webapp is said to be stored in a github repo and has to be 
 - Pull the webapp from github into the ansible master node
 - Configure the master node to ssh into all host nodes without password prompt by creating an internal keypair in the master node and sharing with host nodes.
 - Create an inventory in the master node containing the webservers
-- Create and run an ansible playbook to deploy the webapp to hostnodes through a series of tasks.
+- Create and run an ansible playbook to deploy the webapp to hostnodes through a series of tasks...
